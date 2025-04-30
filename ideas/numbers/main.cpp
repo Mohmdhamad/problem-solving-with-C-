@@ -15,7 +15,7 @@ int main() {
         }
         if(a > 0 ){
             pos++;
-        }else{
+        }else if (a < 0){
             neg++;
         }
     }
